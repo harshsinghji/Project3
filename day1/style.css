@@ -1,0 +1,95 @@
+/* .dot{
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+}
+.div1{
+    margin-right: 20px;
+    display: inline-block;
+}
+.div2{
+    display: inline-block;
+}
+p{
+    margin: 5px;
+    font-size: 40px;
+    display: inline-block;
+} */
+/* .div1{
+    display: flex;
+    font-size: 30px;
+} */
+/* #a1{
+    height: 18px;
+    width: 18px;
+    background-color: grey;
+    border-radius: 50%;
+} */
+/* .dot{
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+}
+[name='c']{
+position: absolute;
+right: 100%;
+} */
+/* #blue:checked ~ svg circle{
+    fill: blue;
+} */
+/* label{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+#blue:checked ~ #blue{
+    background-color: blue;
+}
+#red:checked ~  #red1{
+    background-color: red;
+}
+#yellow:checked ~ #yellow1{
+    background-color: yellow;
+}
+#green:checked ~ #green1{
+    background-color: green;
+}
+svg{
+    width: 38px;
+    height: 38px;
+} */
+.div1{
+    display: inline-flex;
+    flex-direction: column;
+}
+[name='lights']{
+    position: absolute;
+    right: 100%;
+}
+[name='off']{
+    position: absolute;
+    right: 100%;
+}
+.dot{
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+}
+#reset1:checked ~ .dot{
+    background-color: inherit;
+}
+#red1:checked ~  #red1{
+    background-color: red;
+}
+#yellow1:checked ~ #yellow1{
+    background-color: yellow;
+}
+#green1:checked ~ #green1{
+    background-color: green;
+}
